@@ -90,10 +90,3 @@ Contributions are welcome! If you would like to help make DVEA better, please su
 ## License
 
 This project is released open-source under the Apache 2.0 license. By contributing to the Damn Vulnerable LLM Agent, you agree to abide by its terms.
-
-## Contact
-
-For any additional questions or feedback, please [open an issue](#) on the repository.
-
-Thank you for using *Damn Vulnerable Email Agent*! Together, let's make cyberspace a safer place for everyone.
-```
