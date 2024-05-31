@@ -1,0 +1,12 @@
+--- json.py	2023-10-09 18:31:16.563337704 +0100
++++ json_new.py	2023-10-09 18:32:48.956792897 +0100
+@@ -64,6 +64,9 @@
+     # handle newlines and other special characters inside the returned value
+     json_str = _custom_parser(json_str)
+ 
++    #Bug fix
++    json_str = json_str.replace('\\\\', '\\')
++
+     # Parse the JSON string into a Python dictionary
+     parsed = json.loads(json_str)
+ 
